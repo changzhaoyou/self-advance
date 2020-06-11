@@ -1,0 +1,1 @@
+package com.ycz.pattern.factory.simple;/** * 工厂类 */public class SimpleFactory {    /**     * 抽象静态工厂方法     *     * @param type     * @return     */    public static Product createProduct(int type) {        if (type == 1) {            return new ConCreateProduct();        }        throw new RuntimeException("type  no exist instance , please check!");    }}

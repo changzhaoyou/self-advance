@@ -1,0 +1,1 @@
+package com.ycz.pattern.singleton;/** * 静态内部类实现 */public class StaticInnerSingleton {    private StaticInnerSingleton() {    }    private static class HoldClass {        private final static StaticInnerSingleton instance = new StaticInnerSingleton();    }    public static StaticInnerSingleton getInstance() {        return HoldClass.instance;    }}

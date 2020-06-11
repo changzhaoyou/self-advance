@@ -1,0 +1,1 @@
+package com.ycz.mybatis.analyse.service;import com.ycz.mybatis.analyse.domain.User;public interface UserService {    /**     * 查询用户ID     *     * @param id     * @return     */    User queryById(Integer id);    /**     * 插入用户数据     *     * @param user     * @return     */    int insert(User user);}

@@ -1,0 +1,1 @@
+package com.ycz.pattern.factory.method;/** * 抽象工厂类 */public abstract class AbstractFactory {    /**     * 抽象工厂公共方法     *     * @param tClass     * @param <T>     * @return     */    abstract <T extends Product> T createProduct(Class<T> tClass);    /**     * 抽象工厂方法     * @return     */    abstract Product createProduct();}
