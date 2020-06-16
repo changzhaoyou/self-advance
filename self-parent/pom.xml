@@ -23,17 +23,22 @@
         <dependencies>
             <dependency>
                 <groupId>com.ycz</groupId>
-                <artifactId>mybatis-analyse</artifactId>
+                <artifactId>self-mybatis-analyse</artifactId>
                 <version>${self-verison}</version>
             </dependency>
             <dependency>
                 <groupId>com.ycz</groupId>
-                <artifactId>design-pattern</artifactId>
+                <artifactId>self-design-pattern</artifactId>
                 <version>${self-verison}</version>
             </dependency>
             <dependency>
                 <groupId>com.ycz</groupId>
-                <artifactId>proxy-advance</artifactId>
+                <artifactId>self-proxy-advance</artifactId>
+                <version>${self-verison}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ycz</groupId>
+                <artifactId>self-data-structure-algorithm</artifactId>
                 <version>${self-verison}</version>
             </dependency>
             <dependency>
