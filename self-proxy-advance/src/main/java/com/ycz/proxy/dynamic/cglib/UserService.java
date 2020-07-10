@@ -16,7 +16,6 @@ public interface UserService {
 
     /**
      * 请求方法
-     *
      * @param name
      */
     void sayThanks(String name);

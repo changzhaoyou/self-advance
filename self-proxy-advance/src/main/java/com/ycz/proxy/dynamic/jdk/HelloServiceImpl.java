@@ -8,6 +8,7 @@ package com.ycz.proxy.dynamic.jdk;
  */
 public class HelloServiceImpl implements HelloService {
 
+
     @Override
     public void sayHello(String name) {
         System.out.println(name + ",hello world!");
