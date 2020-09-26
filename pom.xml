@@ -21,5 +21,6 @@
         <module>self-mybatis-analyse</module>
         <module>self-data-structure-algorithm</module>
         <module>self-annotation</module>
+        <module>self-apm</module>
     </modules>
 </project>
