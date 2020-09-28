@@ -29,4 +29,15 @@ public class UserService {
         return msg;
     }
 
+    /**
+     * 计算方法耗时
+     *
+     * @param name
+     * @param age
+     * @return
+     */
+    public String sayHi(String name, int age) throws InterruptedException {
+        Thread.sleep(1000);
+        return name;
+    }
 }
