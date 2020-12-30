@@ -1,7 +1,7 @@
-package com.ycz.pattern.proxy.statics.inherit;
+package com.ycz.pattern.proxy.inherit;
 
 /**
- * Proxy(代理主题对象)
+ * DynamicProxy(代理主题对象)
  *
  * @author ycz
  * @version 1.0

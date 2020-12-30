@@ -1,4 +1,4 @@
-package com.ycz.pattern.proxy.statics.inherit;
+package com.ycz.pattern.proxy.inherit;
 
 /**
  * Subject(抽象主题角色)

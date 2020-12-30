@@ -20,7 +20,7 @@ public class RefinedAbstraction extends Abstraction {
 
     @Override
     public void operation() {
-        System.out.println("扩充抽象类。。。。");
+        System.out.println("扩充抽象类");
         implementor.operationImpl();
     }
 }

@@ -1,4 +1,4 @@
-package com.ycz.pattern.proxy.statics.compose;
+package com.ycz.pattern.proxy.compose;
 
 /**
  * Subject(抽象主题角色)

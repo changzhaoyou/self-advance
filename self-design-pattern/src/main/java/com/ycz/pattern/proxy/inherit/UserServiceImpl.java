@@ -1,4 +1,4 @@
-package com.ycz.pattern.proxy.statics.inherit;
+package com.ycz.pattern.proxy.inherit;
 
 /**
  * RealSubject(真实主题角色)

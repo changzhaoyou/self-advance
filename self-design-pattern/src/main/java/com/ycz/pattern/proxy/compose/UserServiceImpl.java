@@ -1,4 +1,4 @@
-package com.ycz.pattern.proxy.statics.compose;
+package com.ycz.pattern.proxy.compose;
 
 /**
  * RealSubject(真实主题角色)

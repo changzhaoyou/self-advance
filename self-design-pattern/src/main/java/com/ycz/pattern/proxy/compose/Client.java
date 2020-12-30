@@ -1,4 +1,4 @@
-package com.ycz.pattern.proxy.statics.inherit;
+package com.ycz.pattern.proxy.compose;
 
 /**
  * 客户端类
@@ -10,7 +10,8 @@ package com.ycz.pattern.proxy.statics.inherit;
 public class Client {
 
     public static void main(String[] args) {
-        UserService userProxy=new UserProxy();
+        UserService userService=new UserServiceImpl();
+        UserService userProxy=new UserProxy(userService);
         userProxy.login("张三");
     }
 }

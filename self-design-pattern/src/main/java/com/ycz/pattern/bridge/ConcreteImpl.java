@@ -11,6 +11,6 @@ package com.ycz.pattern.bridge;
 public class ConcreteImpl implements Implementor {
     @Override
     public void operationImpl() {
-        System.out.println("调用实现类。。。。。");
+        System.out.println("调用桥接实现类");
     }
 }

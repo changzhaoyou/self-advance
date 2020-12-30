@@ -1,7 +1,7 @@
-package com.ycz.pattern.proxy.statics.compose;
+package com.ycz.pattern.proxy.compose;
 
 /**
- * Proxy(代理主题对象)
+ * DynamicProxy(代理主题对象)
  *
  * @author ycz
  * @version 1.0
