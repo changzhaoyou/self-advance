@@ -16,7 +16,7 @@ public class AnnotationTest {
     /**
      * 调用展示方法
      *
-     * @param student
+     * @param student 学生实体
      */
     public void show(@Valid Student student) {
         System.out.println("=======调用show方法========");
@@ -26,7 +26,8 @@ public class AnnotationTest {
     public static void main(String[] args) throws Exception {
         Student student = new Student("张三", 8);
         AnnotationTest annotationTest = new AnnotationTest();
-        Class clazz = annotationTest.getClass();
+        annotationTest.show(student);
+        Class<? extends AnnotationTest> clazz = annotationTest.getClass();
         Method[] declaredMethods = clazz.getDeclaredMethods();
         for (Method method : declaredMethods) {
             System.out.println("方法名："+method.getName());
