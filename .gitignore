@@ -1,0 +1,8 @@
+*.iml
+/self-proxy-advance/target/
+/self-annotation/target/
+/self-apm/target/
+/self-data-structure-algorithm/target/
+/self-design-pattern/target/
+/self-mybatis-analyse/target/
+/.idea/
