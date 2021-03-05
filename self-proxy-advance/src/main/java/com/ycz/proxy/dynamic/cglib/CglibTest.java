@@ -1,7 +1,5 @@
 package com.ycz.proxy.dynamic.cglib;
 
-import net.sf.cglib.core.DebuggingClassWriter;
-
 /**
  * @author ycz
  * @version 1.0
@@ -11,12 +9,15 @@ import net.sf.cglib.core.DebuggingClassWriter;
 public class CglibTest {
 
     public static void main(String[] args) {
-        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "F:\\ycz\\workspace");
+        // System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "F:\\ycz\\workspace");
         MyMethodInterceptor myMethodInterceptor = new MyMethodInterceptor();
         HelloService helloService = myMethodInterceptor.getProxyClass(HelloService.class);
-        // helloService.sayHello("张三");
+        helloService.sayHello("张三");
         helloService.sayThanks("李四");
         UserService userService = myMethodInterceptor.getProxyClass(UserServiceImpl.class);
         userService.sayHello("王五");
+
+        assert 1==1;
+        System.out.println(111);
     }
 }

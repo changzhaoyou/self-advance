@@ -35,6 +35,7 @@ class AnalyseApplicationTests {
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
         User user = userMapper.queryById(1);
         assertNotNull(user);
+        System.out.println(user);
     }
 
 }

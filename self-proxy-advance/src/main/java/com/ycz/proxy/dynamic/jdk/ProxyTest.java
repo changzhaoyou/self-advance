@@ -1,7 +1,5 @@
 package com.ycz.proxy.dynamic.jdk;
 
-import java.lang.reflect.Proxy;
-
 /**
  * @author ycz
  * @version 1.0
@@ -14,8 +12,7 @@ public class ProxyTest {
         //会在工作目录中，生成代理类字节码文件
         System.setProperty("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         HelloService proxy = new HelloServiceImpl();
-        HelloService helloService = (HelloService) Proxy.newProxyInstance(HelloService.class.getClassLoader(),
-                new Class[]{HelloService.class}, new LogProxyHandler(proxy));
+        HelloService helloService = (HelloService) new LogProxyHandler().bind(proxy);
         helloService.sayHello("张三");
     }
 }

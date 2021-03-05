@@ -15,6 +15,7 @@ public class Client {
         Filter httpFilter=new HttpFilter();
         FilterChain filterChain=new FilterChain();
         filterChain.addFilter(httpFilter);
-        webFilter.doFilter("hello",filterChain);
+        filterChain.addFilter(webFilter);
+        filterChain.doChain("hello");
     }
 }

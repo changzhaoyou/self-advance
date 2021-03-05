@@ -12,9 +12,9 @@
     </resultMap>
 
     <select id="queryById" resultMap="User">
-    select * from user where id = #{id}
+    select * from t_user where id = #{id}
   </select>
     <insert id="insert" parameterType="com.ycz.mybatis.analyse.domain.User">
-      INSERT INTO user (user_name, address, age) VALUES ( #{userName},#{address},#{age});
+      INSERT INTO t_user (user_name, address, age) VALUES ( #{userName},#{address},#{age});
     </insert>
 </mapper>
