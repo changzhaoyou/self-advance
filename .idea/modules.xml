@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/self-advance.iml" filepath="$PROJECT_DIR$/self-advance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-annotation/self-annotation.iml" filepath="$PROJECT_DIR$/self-annotation/self-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-apm/self-apm.iml" filepath="$PROJECT_DIR$/self-apm/self-apm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-data-structure-algorithm/self-data-structure-algorithm.iml" filepath="$PROJECT_DIR$/self-data-structure-algorithm/self-data-structure-algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-design-pattern/self-design-pattern.iml" filepath="$PROJECT_DIR$/self-design-pattern/self-design-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-jvm/self-jvm.iml" filepath="$PROJECT_DIR$/self-jvm/self-jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-mybatis-analyse/self-mybatis-analyse.iml" filepath="$PROJECT_DIR$/self-mybatis-analyse/self-mybatis-analyse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-parent/self-parent.iml" filepath="$PROJECT_DIR$/self-parent/self-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-proxy-advance/self-proxy-advance.iml" filepath="$PROJECT_DIR$/self-proxy-advance/self-proxy-advance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-rock/self-rock.iml" filepath="$PROJECT_DIR$/self-rock/self-rock.iml" />
+    </modules>
+  </component>
+</project>

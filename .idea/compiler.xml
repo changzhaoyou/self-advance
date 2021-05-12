@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="self-design-pattern" />
+        <module name="self-annotation" />
+        <module name="self-rock" />
+        <module name="self-apm" />
+        <module name="self-mybatis-analyse" />
+        <module name="self-data-structure-algorithm" />
+        <module name="self-jvm" />
+        <module name="self-proxy-advance" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="self-advance" target="8" />
+      <module name="self-annotation" target="8" />
+      <module name="self-apm" target="8" />
+      <module name="self-data-structure-algorithm" target="8" />
+      <module name="self-design-pattern" target="8" />
+      <module name="self-jvm" target="8" />
+      <module name="self-mybatis-analyse" target="8" />
+      <module name="self-parent" target="8" />
+      <module name="self-proxy-advance" target="8" />
+      <module name="self-rock" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
